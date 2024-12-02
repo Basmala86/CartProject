@@ -272,3 +272,68 @@ button:hover {
     border-radius: 4px;
     font-weight: bold;
 }
+/* Checkout Container */
+.checkout-container {
+    background: var(--beige);
+    border: 1px solid var(--muted-green);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.checkout-container h1 {
+    color: var(--terracotta);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: var(--muted-green);
+    margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--muted-green);
+    border-radius: 5px;
+    background-color: var(--soft-cream);
+    color: var(--terracotta);
+}
+
+.total-display {
+    margin: 20px 0;
+    font-size: 18px;
+    color: var(--terracotta);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Place Order Button */
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background: var(--terracotta);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background: var(--peach);
+    color: var(--terracotta);
+}
